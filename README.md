@@ -1,4 +1,6 @@
-# keith-number-finder
+# keithster enterprises presents...
+##the kieth number finder!!! 
+###*clapclapclapclapclapclapclapclap*
 finds keith numbers
 but.... thats not all
 

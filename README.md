@@ -14,9 +14,9 @@ you can use this to maximize search effeciency
 maybe you will consider donating to http://thisisascam.com/donations?
 
 #What are the different files for?
-the file keith2.py is the most recent one that actually works
+the file keith2.py is the most recently updated one that should work
 
-the file dgkeith.py is daniel's effort(basically copying mine and making it "simpler")
+the file dgkeith.py is daniel's effort(testing my new version of the program and editing it to make it easier to use)
 
 and keith.py is my first effort which was pretty terrible and overcomplex.
 
@@ -40,6 +40,6 @@ B.T.W me is aryan
 
 #Credits
 
-####80% Aryan
-####18% Mike Keith
-####2% Daniel
+####Aryan
+####Mike Keith
+####Daniel

@@ -13,11 +13,12 @@ def checker(num):
         
 print "***DISCLAIMER***\nIF THE NUMBER IT IS CHECKING GOES ABOVE 100,000 YOU WILL EXPERIENCE INTENSE LAG"
 count = int(raw_input("\nAt what number would you like to stop at?: "))
-value = 10
+value = 9
 while (value <= count):
-    
-    checker(value)
+
     value += 1
+    checker(value)
+    
 
 print "Done!"
 

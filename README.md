@@ -37,3 +37,9 @@ B.T.W me is aryan
 
 ###he also invented kieth numbers
 ###thus his name, mike keith
+
+#Credits
+
+####80% Aryan
+####17% Mike Keith
+####3% Daniel

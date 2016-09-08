@@ -41,5 +41,5 @@ B.T.W me is aryan
 #Credits
 
 ####80% Aryan
-####17% Mike Keith
-####3% Daniel
+####10% Mike Keith
+####10% Daniel

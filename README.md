@@ -1,6 +1,4 @@
-# keithster enterprises presents...
-##the kieth number finder!!! 
-###*clapclapclapclapclapclapclapclap*
+##kieth number finder 
 
 #Description
 ###Program:
@@ -29,7 +27,6 @@ def checker(num):
         
 
         
-print "***DISCLAIMER***\nIF THE NUMBER IT IS CHECKING GOES ABOVE 100,000 YOU WILL EXPERIENCE INTENSE LAG"
 
 count = int(raw_input("\nAt what number would you like to stop at?: "))
 
@@ -64,7 +61,7 @@ this part creates a new function by the name of “checker” and it takes an in
     sumnum = sum(arraynum)
 
 
-This part is where some variables get declared (just like in math) so it will be easier for us to use later on. The stringnum variable is taking the number that you inputed and converting it into a string from an integer. This is so that the next variable declaration will work, arraynum. This variable converts the integer that was inputted and turns each digit into parts of an array, now the variable that we are converting must be a string or it will not work, that is the purpose of the stringnum variable. This variable also converts the array into a integer format after it becomes an array so that the digits inside may be added up. The variable sumnum takes all of the digits in the array and adds them up so it can be used later on.
+This part is where some variables get declared so it will be easier for us to use later on. The stringnum variable is taking the number that you inputed and converting it into a string from an integer. This is so that the next variable declaration will work, arraynum. This variable converts the integer that was inputted and turns each digit into parts of an array, now the variable that we are converting must be a string or it will not work, that is the purpose of the stringnum variable. This variable also converts the array into a integer format after it becomes an array so that the digits inside may be added up. The variable sumnum takes all of the digits in the array and adds them up so it can be used later on.
 
     while sumnum < num:
 
@@ -91,11 +88,6 @@ This is a very important part. What it does is it replaces the last value in the
  
 This is the part that actually validates if the number is a keith number by checking if the sum of all the numbers in the array equals to the starting number
 
-    print "***DISCLAIMER***\nIF THE NUMBER IT IS CHECKING GOES ABOVE 100,000 YOU WILL EXPERIENCE INTENSE LAG"
-
-
-Tells you that if the number that it is checking, expect to be waiting a longer time as the space between the number are exceeding and as the numbers get larger, it also takes more to to process them individually. Since Python 32-bit can only work on a single cpu core, it doesn’t really matter how many cores or how “powerful” your processor is as the only factor that changes the time that it requires to calculate is the clock speed of your cpu. So this means, even if you had a supercomputer, it would, theoretically, go almost at the same speed as your computer at home.
-
     count = int(raw_input("\nAt what number would you like to stop at?: "))
     
 This asks you, at which number would you like the program to stop running.
@@ -110,14 +102,6 @@ This sets the first number it checks to 9(technically 10, because in the loop 1 
        checker(value)
        
 This is the main loop of the program which keeps increasing the value that it checks by one until it reaches the value you entered, at which point, it moves to the last point of the program and ends.
-
-    print "Done!"
-    
-Prints, “Done!” to signal the end of the program’s run.
-
-
-
-
 
 
 ###Program’s Output:
@@ -211,26 +195,4 @@ At what number would you like to stop at?: 1000000000000000000000000000000000000
 
 ####Number of keith numbers: 42
 
-Over here I let the program run for 5 hours straight. In the first 2 hours, it seemed to be steadily giving number, but after the 2nd hour, that changed. Even after 3 hours since the last number was found, no new number has come up...
-
-
-
-
-#Requirements:
-1. computer
-
-2. python 2.7
-
-3. extremely minimal computer knowledge
-
-#Our Sponsor
-![lolololol](keithbow.jpg)
-
-###he also invented kieth numbers
-###thus his name, mike keith
-
-#Credits
-
-####Aryan
-####Mike Keith
-####Daniel
+Over here I let the program run for 5 hours straight. In the first 2 hours, it seemed to be steadily giving numbers, but after the 2nd hour, that changed.

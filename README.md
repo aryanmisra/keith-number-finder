@@ -1,7 +1,7 @@
-##kieth number finder 
+## Kieth Number Finder 
 
-#Description
-###Program:
+# Description
+### Program:
 
 def checker(num):
 
@@ -45,13 +45,13 @@ print "Done!"
 
 
 
-###Explaining the Program:
+### Explaining the Program:
 
 
 
     def checker(num)
 
-this part creates a new function by the name of “checker” and it takes an input which is the number it will check to see if it’s keith number. The next 4 bottom parts are part of this function.
+This part creates a new function by the name of “checker” and it takes an input which is the number it will check to see if it’s keith number. The next 4 bottom parts are part of this function.
 
 
     stringnum = str(num)
@@ -104,7 +104,7 @@ This sets the first number it checks to 9(technically 10, because in the loop 1 
 This is the main loop of the program which keeps increasing the value that it checks by one until it reaches the value you entered, at which point, it moves to the last point of the program and ends.
 
 
-###Program’s Output:
+### Program’s Output:
 
 
 At what number would you like to stop at?: 1000000000000000000000000000000000000000000
@@ -193,6 +193,5 @@ At what number would you like to stop at?: 1000000000000000000000000000000000000
 251133297 is a keith number
 
 
-####Number of keith numbers: 42
-
-Over here I let the program run for 5 hours straight. In the first 2 hours, it seemed to be steadily giving numbers, but after the 2nd hour, that changed.
+#### Number of keith numbers: 42
+Duration: 5 hours
